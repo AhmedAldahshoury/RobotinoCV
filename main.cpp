@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include <stdio.h>
 
 
 #include "package_bgs/FrameDifferenceBGS.cpp"
@@ -22,7 +21,7 @@ int main(int argc, char **argv){
     argv[1] ="/home/ahmed/RobotinoCV/car-overhead-1.avi" ;
     argc++;
 
-    if(argc > 2)
+    if(argc > 1)
     {
         std::cout << "Openning: " << argv[1] << std::endl;
 

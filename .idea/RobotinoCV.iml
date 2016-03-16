@@ -13,12 +13,14 @@
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
           <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
+          <root url="file:///usr/local/robotino/api2/include" />
         </CLASSES>
         <SOURCES>
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
           <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
+          <root url="file:///usr/local/robotino/api2/include" />
         </SOURCES>
       </library>
     </orderEntry>

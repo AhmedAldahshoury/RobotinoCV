@@ -2,7 +2,6 @@
 // Created by ahmed on 3/19/16.
 //
 
-#include "templateMatching.h"
 
 #include <iostream>
 #include <opencv2/opencv.hpp>
@@ -31,7 +30,7 @@ void MatchingMethod( int, void* );
 /**
  * @function main
  */
-/*
+
 int main( int, char** argv )
 {
     /// Load image and template
@@ -57,7 +56,7 @@ int main( int, char** argv )
 /**
  * @function MatchingMethod
  * @brief Trackbar callback
-
+*/
 void MatchingMethod( int, void* )
 {
     /// Source image to display
@@ -96,4 +95,3 @@ void MatchingMethod( int, void* )
 
     return ;
 }
- */

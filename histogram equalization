@@ -1,0 +1,49 @@
+/**
+ * @function EqualizeHist_Demo.cpp
+ * @brief Demo code for equalizeHist function
+ * @author OpenCV team
+ */
+
+#include <iostream>
+#include <opencv2/opencv.hpp>
+
+
+
+using namespace cv;
+using namespace std;
+
+/**  @function main */
+int main( int argc, char** argv )
+{
+    Mat src, dst;
+
+    const char* image_window = "Source Image";
+    const char* result_window = "Result window";
+
+
+    /// Load image
+    argv[1]="/home/ahmed/RobotinoCV/bmwtemp.png";
+    src = imread( argv[1], 1 );
+
+    if( !src.data )
+    { cout<<"Usage: ./Histogram_Demo <path_to_image>"<<endl;
+        return -1;}
+
+    /// Convert to grayscale
+    cvtColor( src, src, CV_BGR2GRAY );
+
+    /// Apply Histogram Equalization
+    equalizeHist( src, dst );
+
+    /// Display results
+    namedWindow( image_window, CV_WINDOW_AUTOSIZE );
+    namedWindow( result_window, CV_WINDOW_AUTOSIZE );
+
+    imshow( image_window, src );
+    imshow( result_window, dst );
+
+    /// Wait until user exits the program
+    waitKey(0);
+
+    return 0;
+}

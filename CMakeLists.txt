@@ -73,7 +73,7 @@
 
 
 
-    set(SOURCE_FILES main.cpp)
+    set(SOURCE_FILES main.cpp templateMatching.cpp templateMatching.h)
     add_executable(RobotinoCV ${SOURCE_FILES})
     target_link_libraries(RobotinoCV ${OpenCV_LIBS} ${OPENGL_LIBRARIES})
     include_directories(${/home/ahmed/RobotinoCV}/opencv)

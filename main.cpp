@@ -1,78 +1,92 @@
+/**
+ * @file objectDetection.cpp
+ * @author A. Huaman ( based in the classic facedetect.cpp in samples/c )
+ * @brief A simplified version of facedetect.cpp, show how to load a cascade classifier and how to find objects (Face + eyes) in a video stream
+ */
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
 
-#include "package_bgs/FrameDifferenceBGS.cpp"
+using namespace std;
+using namespace cv;
 
-#if CV_MAJOR_VERSION >= 2 && CV_MINOR_VERSION >= 4 && CV_SUBMINOR_VERSION >= 3
+/** Function Headers */
+void detectAndDisplay( Mat frame );
 
-#endif
+/** Global variables */
+//-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
+String face_cascade_name = "/home/ahmed/RobotinoCV/haarcascades/haarcascade_frontalface_alt.xml";
+String eyes_cascade_name = "/home/ahmed/RobotinoCV/haarcascades/haarcascade_fullbody.xml";
+CascadeClassifier face_cascade;
+CascadeClassifier cade;
+string window_name = "Capture - Face detection";
+RNG rng(12345);
 
-#include "package_bgs/jmo/MultiLayerBGS.h"
+/**
+ * @function main
+ */
+int main( void )
+{
+    VideoCapture capture;
+    Mat frame;
 
+    //-- 1. Load the cascades
+    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
+    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
 
-int main(int argc, char **argv){
-
-    std::cout << "Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION << std::endl;
-
-    CvCapture *capture = 0;
-    int resize_factor = 100;
-    argv[1] ="/home/ahmed/RobotinoCV/car-overhead-1.avi" ;
-    argc++;
-
-    if(argc > 2)
+    //-- 2. Read the video stream
+    capture.open( -1 );
+    if( capture.isOpened() )
     {
-        std::cout << "Openning: " << argv[1] << std::endl;
+        for(;;)
+        {
+            capture >> frame;
 
-        capture = cvCaptureFromAVI(argv[1]);
+            //-- 3. Apply the classifier to the frame
+            if( !frame.empty() )
+            { detectAndDisplay( frame ); }
+            else
+            { printf(" --(!) No captured frame -- Break!"); break; }
+
+            int c = waitKey(10);
+            if( (char)c == 'c' ) { break; }
+
+        }
     }
-    else
-    { std::cout << "3ak " << std::endl;
-        capture = cvCaptureFromCAM(0);
-        resize_factor = 50; // set size = 50% of original image
-    }
-
-    if(!capture)
-    {
-        std::cerr << "Cannot initialize video!" << std::endl;
-        return -1;
-    }
-
-
-
-    IplImage *frame_aux = cvQueryFrame(capture);
-    IplImage *frame = cvCreateImage(cvSize((int)((frame_aux->width*resize_factor)/100) , (int)((frame_aux->height*resize_factor)/100)), frame_aux->depth, frame_aux->nChannels);
-    cvResize(frame_aux, frame);
-
-    /* Background Subtraction Methods */
-    IBGS *bgs;
-
-    /*** Default Package ***/
-    bgs = new FrameDifferenceBGS;
-
-
-    int key = 0;
-    while(key != 'q')
-    {
-        frame_aux = cvQueryFrame(capture);
-        if(!frame_aux) break;
-
-        cvResize(frame_aux, frame);
-
-        cv::Mat img_input(frame);
-        cv::imshow("input", img_input);
-
-        cv::Mat img_mask;
-        cv::Mat img_bkgmodel;
-        bgs->process(img_input, img_mask, img_bkgmodel);
-
-        key = cvWaitKey(33);
-    }
-
-    delete bgs;
-
-    cvDestroyAllWindows();
-    cvReleaseCapture(&capture);
-
     return 0;
+}
+
+/**
+ * @function detectAndDisplay
+ */
+void detectAndDisplay( Mat frame )
+{
+    std::vector<Rect> faces;
+    Mat frame_gray;
+
+    cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
+    equalizeHist( frame_gray, frame_gray );
+    //-- Detect faces
+    face_cascade.detectMultiScale( frame_gray, faces, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+
+    for( size_t i = 0; i < faces.size(); i++ )
+    {
+        Point center( faces[i].x + faces[i].width/2, faces[i].y + faces[i].height/2 );
+        ellipse( frame, center, Size( faces[i].width/2, faces[i].height/2), 0, 0, 360, Scalar( 255, 0, 255 ), 2, 8, 0 );
+
+        Mat faceROI = frame_gray( faces[i] );
+        std::vector<Rect> eyes;
+
+        //-- In each face, detect eyes
+        eyes_cascade.detectMultiScale( faceROI, eyes, 1.1, 2, 0 |CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+
+        for( size_t j = 0; j < eyes.size(); j++ )
+        {
+            Point eye_center( faces[i].x + eyes[j].x + eyes[j].width/2, faces[i].y + eyes[j].y + eyes[j].height/2 );
+            int radius = cvRound( (eyes[j].width + eyes[j].height)*0.25 );
+            circle( frame, eye_center, radius, Scalar( 255, 0, 0 ), 3, 8, 0 );
+        }
+    }
+    //-- Show what you got
+    imshow( window_name, frame );
 }

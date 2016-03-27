@@ -1,5 +1,6 @@
 # RobotinoCV
 This project is about Dynamic Object Classification
+To use this project it is required to download the libraries in "DownloadMe.txt" File
 
 Citation
 --------

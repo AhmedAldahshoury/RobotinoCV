@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FrameProcessor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoCapture.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/AdaptiveSelectiveBackgroundLearning.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/bl/sdLaMa091.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/bl/SigmaDeltaBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/bl/sdLaMa091.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/bl/SigmaDeltaBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/db/IndependentMultimodalBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/db/imbs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/db/IndependentMultimodalBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/db/imbs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/sjn/SJN_MultiCueBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/sjn/SJN_MultiCueBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/WeightedMovingMeanBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/WeightedMovingVarianceBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/FrameDifferenceBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM_UM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/MRF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzySugenoIntegral.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzySugenoIntegral.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzyChoquetIntegral.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF_UM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzyChoquetIntegral.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF_UM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM_UM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/PixelUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/PixelUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF_UV.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM_UV.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/PerformanceUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzyUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM_UV.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/FuzzyUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/MRF.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/PerformanceUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FGMM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/tb/T2FMRF_UV.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/GMG.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/MixtureOfGaussianV2BGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/AdaptiveBackgroundLearning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPGrimsonGMMBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/PratiMediodBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/AdaptiveMedianBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/WrenGA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/TextureBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/AdaptiveMedianBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Eigenbackground.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPWrenGABGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPPratiMediodBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPAdaptiveMedianBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/WrenGA.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPMeanBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Eigenbackground.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Error.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Image.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/GrimsonGMM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/ZivkovicAGMM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPTextureBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPTextureBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/PratiMediodBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPZivkovicAGMMBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPAdaptiveMedianBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Error.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPWrenGABGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPGrimsonGMMBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/GrimsonGMM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPZivkovicAGMMBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPPratiMediodBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPEigenbackgroundBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/MeanBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPEigenbackgroundBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/TextureBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/ZivkovicAGMM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/MeanBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/Image.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/dp/DPMeanBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/WeightedMovingVarianceBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/BlobExtraction.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/CMultiLayerBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/LocalBinaryPattern.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/LocalBinaryPattern.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/CMultiLayerBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/blob.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/blob.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/BlobResult.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/MultiLayerBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/MultiLayerBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/BlobExtraction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/jmo/BlobResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/MixtureOfGaussianV1BGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/GMG.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/VuMeter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/TBackgroundVuMeter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/TBackgroundVuMeter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/TBackground.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/TBackground.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/av/VuMeter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/StaticFrameDifferenceBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/MixtureOfGaussianV2BGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/StaticFrameDifferenceBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/MixtureOfGaussianV1BGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/NPBGmodel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/KDE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/NPBGmodel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/KDE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/NPBGSubtractor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/KernelTable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/NPBGSubtractor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ae/KernelTable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/SuBSENSE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorSuBSENSE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorLBSP.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorLOBSTER.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/LOBSTER.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/LOBSTER.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/LBSP.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorSuBSENSE.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/LBSP.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/SuBSENSE.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorLBSP.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/pl/BackgroundSubtractorLOBSTER.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/my/MyBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/my/MyBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEImage.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/LbpMrf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/graph.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEHistogram.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/maxflow.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEDefs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEImage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/graph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEHistogram.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MEDefs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/LbpMrf.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MotionDetection.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/ck/MotionDetection.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/WeightedMovingMeanBGS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/AdaptiveSelectiveBackgroundLearning.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBFuzzyAdaptiveSOM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelMog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBFuzzyGaussian.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelMog.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelGauss.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBFuzzyGaussian.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBSimpleGaussian.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelFuzzySom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBAdaptiveSOM.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBMixtureOfGaussians.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBMixtureOfGaussians.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBAdaptiveSOM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelFuzzyGauss.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelFuzzySom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBFuzzyAdaptiveSOM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelGauss.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelSom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/LBSimpleGaussian.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelFuzzyGauss.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModelSom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/lb/BGModel.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/AdaptiveBackgroundLearning.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_bgs/FrameDifferenceBGS.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_analysis/ForegroundMaskAnalysis.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package_analysis/ForegroundMaskAnalysis.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoCapture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FrameProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoAnalysis.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PreProcessor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PreProcessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoAnalysis.h" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

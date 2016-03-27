@@ -1,10 +1,6 @@
 
 #include <iostream>
 #include <opencv2/opencv.hpp>
-#include "opencv2/objdetect/objdetect.hpp"
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
-
 
 using namespace std;
 using namespace cv;
@@ -12,28 +8,26 @@ using namespace cv;
 int main( )
 {
     Mat image;
-    image = imread("/home/ahmed/Desktop/1.jpeg", CV_LOAD_IMAGE_COLOR);
-    namedWindow( "window1", 2 );   imshow( "window1", image );
+    image = imread("/home/ahmed/Desktop/123.jpg", CV_LOAD_IMAGE_COLOR);
+    namedWindow( "original image", 2 );   imshow( "original image", image );
 
     // Load Face cascade (.xml file)
-    CascadeClassifier face_cascade;
+    CascadeClassifier robotino_cascade;
 
-    face_cascade.load( "/home/ahmed/Desktop/data/cascade.xml" );
+    robotino_cascade.load( "/home/ahmed/Desktop/data/cascade.xml" );
 
-    // Detect faces
-    std::vector<Rect> faces;
+    //detecting robotinos
+    std::vector<Rect> robotinos;
     // face_cascade.detectMultiScale( image, faces, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
-    face_cascade.detectMultiScale(image,faces,1.1,1000,0);
+    robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
 
     // Draw circles on the detected faces
-    for( int i = 0; i < faces.size(); i++ )
+    for( int i = 0; i < robotinos.size(); i++ )
     {
-        // Point center( faces[i].x + faces[i].width*0.5, faces[i].y + faces[i].height*0.5 );
-        rectangle( image, cvPoint(faces[i].x,faces[i].y),cvPoint(faces[i].width+faces[i].x,faces[i].height+faces[i].y),CV_RGB(0,255,0), 3, 8,0);
-        //ellipse( image, center, Size( faces[i].width*0.5, faces[i].height*0.5), 0, 0, 360, Scalar( 255, 0, 255 ), 4,
-        //        8, 0 );
-    }
 
+        rectangle( image, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
+    }
+    namedWindow( "Detected Face", 2 );
     imshow( "Detected Face", image );
 
     waitKey(0);

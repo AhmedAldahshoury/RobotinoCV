@@ -11,518 +11,9 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470aaf97-e15b-4c83-b47a-5a4d93bfde17" name="Default" comment="cascade classifier trial">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/dataset/video.avi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/docs/bgslibrary_how_to_contribute.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/FG/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/GT/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/SC/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/19.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/26.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/37.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/41.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/42.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/44.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/frames/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/_COPY_bgslibrary.exe_HERE_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/bgslibrary_gui.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/images/bgslibrary_gui_screen01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/images/bgslibrary_gui_screen02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/images/bgslibrary_gui_screen03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/images/bgslibrary_gui_screen04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/commons-configuration-1.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/commons-io-2.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/commons-lang-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/swingx-all-1.6.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/lib/swingx-beaninfo-1.6.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/private/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/resources/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/dataset/video.avi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/outputs/background/KEEP_THIS_FOLDER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/outputs/foreground/KEEP_THIS_FOLDER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/outputs/input/KEEP_THIS_FOLDER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/res/bgslibrary_vs2010_mfc.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/bgslibrary.suo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/vecfile.vec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robotinoFiles/robotino-api2_0.9.16_amd64.deb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robotinoFiles/robview3_3.0.16_amd64.deb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/bgslibrary-master.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/COPYING.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/Config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/Demo.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/Demo2.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/FrameProcessor.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/FrameProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/IFrameProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/Main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/PreProcessor.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/PreProcessor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/README_LINUX_USERS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/README_VISUAL_STUDIO_USERS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/VideoAnalysis.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/VideoAnalysis.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/VideoCapture.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/VideoCapture.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/build/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/build/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/config/FrameProcessor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/config/PreProcessor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/config/VideoCapture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/demos/DemoFrameDifferenceBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/demos/DemoMultiLayerBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_linux/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_linux/FrameDifferenceTest.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_linux/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_linux/config/KEEP_THIS_FOLDER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_macosx/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_macosx/FrameDifferenceTest.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_macosx/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/example_macosx/config/KEEP_THIS_FOLDER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/fet/fet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/bgslibrary_gui.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/config/FrameProcessor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/config/PreProcessor.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/config/VideoCapture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/manifest.mf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/build-impl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/genfiles.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/private/private.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/private/private.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/nbproject/project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/run_camera.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/run_java_gui.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/run_java_gui_with_console.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/run_video.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/entity/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/entity/Configuration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/gui/AboutDialog.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/gui/AboutDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/gui/MainFrame.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/java_gui/src/br/com/bgslibrary/gui/MainFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_analysis/ForegroundMaskAnalysis.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_analysis/ForegroundMaskAnalysis.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/AdaptiveBackgroundLearning.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/AdaptiveBackgroundLearning.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/AdaptiveSelectiveBackgroundLearning.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/AdaptiveSelectiveBackgroundLearning.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/FrameDifferenceBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/FrameDifferenceBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/GMG.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/GMG.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/IBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/MixtureOfGaussianV1BGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/MixtureOfGaussianV1BGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/MixtureOfGaussianV2BGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/MixtureOfGaussianV2BGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/StaticFrameDifferenceBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/StaticFrameDifferenceBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/WeightedMovingMeanBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/WeightedMovingMeanBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/WeightedMovingVarianceBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/WeightedMovingVarianceBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/KDE.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/KDE.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/KernelTable.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/KernelTable.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/NPBGSubtractor.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/NPBGSubtractor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/NPBGmodel.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ae/NPBGmodel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/TBackground.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/TBackground.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/TBackgroundVuMeter.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/TBackgroundVuMeter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/VuMeter.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/av/VuMeter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/bl/SigmaDeltaBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/bl/SigmaDeltaBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/bl/sdLaMa091.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/bl/sdLaMa091.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/bl/stdbool.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/LbpMrf.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/LbpMrf.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEDefs.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEDefs.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEHistogram.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEHistogram.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEImage.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MEImage.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MotionDetection.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/MotionDetection.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/README.TXT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/block.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/graph.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/graph.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/ck/maxflow.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/db/IndependentMultimodalBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/db/IndependentMultimodalBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/db/imbs.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/db/imbs.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/AdaptiveMedianBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/AdaptiveMedianBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Bgs.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/BgsParams.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPAdaptiveMedianBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPAdaptiveMedianBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPEigenbackgroundBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPEigenbackgroundBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPGrimsonGMMBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPGrimsonGMMBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPMeanBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPMeanBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPPratiMediodBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPPratiMediodBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPTextureBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPTextureBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPWrenGABGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPWrenGABGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPZivkovicAGMMBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/DPZivkovicAGMMBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Eigenbackground.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Eigenbackground.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Error.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Error.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/GrimsonGMM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/GrimsonGMM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Image.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/Image.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/MeanBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/MeanBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/PratiMediodBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/PratiMediodBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/TextureBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/TextureBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/WrenGA.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/WrenGA.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/ZivkovicAGMM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/dp/ZivkovicAGMM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BackgroundSubtractionAPI.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BlobExtraction.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BlobExtraction.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BlobLibraryConfiguration.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BlobResult.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/BlobResult.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/CMultiLayerBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/CMultiLayerBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/LocalBinaryPattern.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/LocalBinaryPattern.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/MultiLayerBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/MultiLayerBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/OpenCvDataConversion.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/blob.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/jmo/blob.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModel.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelFuzzyGauss.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelFuzzyGauss.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelFuzzySom.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelFuzzySom.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelGauss.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelGauss.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelMog.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelMog.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelSom.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/BGModelSom.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBAdaptiveSOM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBAdaptiveSOM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBFuzzyAdaptiveSOM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBFuzzyAdaptiveSOM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBFuzzyGaussian.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBFuzzyGaussian.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBMixtureOfGaussians.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBMixtureOfGaussians.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBSimpleGaussian.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/LBSimpleGaussian.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/lb/Types.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/my/MyBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/my/MyBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorLBSP.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorLBSP.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorLOBSTER.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorLOBSTER.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorSuBSENSE.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/BackgroundSubtractorSuBSENSE.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/DistanceUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP_16bits_dbcross_1ch.i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP_16bits_dbcross_3ch1t.i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP_16bits_dbcross_3ch3t.i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LBSP_16bits_dbcross_s3ch.i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LOBSTER.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/LOBSTER.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/RandUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/SuBSENSE.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/pl/SuBSENSE.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/sjn/SJN_MultiCueBGS.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/sjn/SJN_MultiCueBGS.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzyChoquetIntegral.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzyChoquetIntegral.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzySugenoIntegral.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzySugenoIntegral.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzyUtils.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/FuzzyUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/MRF.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/MRF.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/PerformanceUtils.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/PerformanceUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/PixelUtils.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/PixelUtils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM_UM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM_UM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM_UV.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FGMM_UV.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF_UM.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF_UM.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF_UV.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/package_bgs/tb/T2FMRF_UV.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/run_camera.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/run_camera.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/run_demo.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/run_video.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/run_video.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010/bgslibrary.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010/bgslibrary.vcxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010/bgslibrary.vcxproj.filters" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010/bgslibrary.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/AdaptiveBackgroundLearning.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/AdaptiveSelectiveBackgroundLearning.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPAdaptiveMedianBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPEigenbackgroundBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPGrimsonGMMBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPMeanBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPPratiMediodBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPTextureBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPWrenGABGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/DPZivkovicAGMMBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/FrameDifferenceBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/FuzzyChoquetIntegral.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/FuzzySugenoIntegral.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/GMG.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/IndependentMultimodalBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/KDE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LBAdaptiveSOM.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LBFuzzyAdaptiveSOM.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LBFuzzyGaussian.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LBMixtureOfGaussians.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LBSimpleGaussian.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/LOBSTERBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/MixtureOfGaussianV1BGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/MixtureOfGaussianV2BGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/MultiCueBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/MultiLayerBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/SigmaDeltaBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/StaticFrameDifferenceBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/SuBSENSEBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/T2FGMM_UM.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/T2FGMM_UV.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/T2FMRF_UM.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/T2FMRF_UV.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/VuMeter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/WeightedMovingMeanBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/config/WeightedMovingVarianceBGS.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/App.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/App.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/Dlg.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/Dlg.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/ReadMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/bgslibrary_vs2010_mfc.rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/bgslibrary_vs2010_mfc.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/bgslibrary_vs2010_mfc.vcxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/bgslibrary_vs2010_mfc.vcxproj.filters" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/bgslibrary_vs2010_mfc.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/res/bgslibrary_vs2010_mfc.rc2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/resource.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/stdafx.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/stdafx.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2010mfc/src/targetver.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/bgslibrary.sln" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/bgslibrary.vcxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/bgslibrary.vcxproj.filters" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bgslibrary-master/vs2013/bgslibrary.vcxproj.user" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/negative.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/data/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/objectmarker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/positive.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/samples.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robotinoFiles/joywithcam1.rvw2" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/banana_classifier.xml" afterPath="" />
+    <list default="true" id="470aaf97-e15b-4c83-b47a-5a4d93bfde17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/methods sources/robotino detection" afterPath="$PROJECT_DIR$/methods sources/robotino detection" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="RobotinoCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -535,7 +26,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -569,17 +60,17 @@
         <entry file="file://$PROJECT_DIR$/robocascade/objectmarker.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/robocascade/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6010929">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.48351648">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -602,6 +93,8 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/methods sources/robotino detection" />
         <option value="$PROJECT_DIR$/robocascade/README.md" />
+        <option value="$PROJECT_DIR$/robocascade/objectmarker.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -668,7 +161,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="robocascade" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -761,7 +254,19 @@
       <option name="project" value="LOCAL" />
       <updated>1459106432786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding robocascade V 0.1">
+      <created>1459109142258</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1459109142258</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding robocascade V 0.1">
+      <created>1459109646575</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459109646575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -770,22 +275,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2416357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31669536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34229392" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32358003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32590052" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32702237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39931154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31669536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32358003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39931154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -803,31 +308,14 @@
     <MESSAGE value="fixing errors and adding media folder" />
     <MESSAGE value="organizing directory's files" />
     <MESSAGE value="cascade classifier trial" />
-    <option name="LAST_COMMIT_MESSAGE" value="cascade classifier trial" />
+    <MESSAGE value="adding robocascade V 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding robocascade V 0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/methods sources/car detection cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="165" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="165" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/methods sources/car detection 2">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1181,25 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robocascade/data/params.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robocascade/objectmarker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1215,10 +685,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/bgslibrary-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="3" selection-start-line="18" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robocascade/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6010929">
+        <state vertical-scroll-proportion="0.6043956">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robocascade/objectmarker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48351648">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>

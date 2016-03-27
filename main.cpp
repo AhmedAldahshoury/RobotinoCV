@@ -1,78 +1,35 @@
+
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+using namespace std;
+using namespace cv;
 
-#include "package_bgs/FrameDifferenceBGS.cpp"
+int main( )
+{
+    Mat image;
+    image = imread("/home/ahmed/Desktop/123.jpg", CV_LOAD_IMAGE_COLOR);
+    namedWindow( "original image", 2 );   imshow( "original image", image );
 
-#if CV_MAJOR_VERSION >= 2 && CV_MINOR_VERSION >= 4 && CV_SUBMINOR_VERSION >= 3
+    // Load Face cascade (.xml file)
+    CascadeClassifier robotino_cascade;
 
-#endif
+    robotino_cascade.load( "/home/ahmed/Desktop/data/cascade.xml" );
 
-#include "package_bgs/jmo/MultiLayerBGS.h"
+    //detecting robotinos
+    std::vector<Rect> robotinos;
+    // face_cascade.detectMultiScale( image, faces, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+    robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
 
-
-int main(int argc, char **argv){
-
-    std::cout << "Using OpenCV " << CV_MAJOR_VERSION << "." << CV_MINOR_VERSION << "." << CV_SUBMINOR_VERSION << std::endl;
-
-    CvCapture *capture = 0;
-    int resize_factor = 100;
-    argv[1] ="/home/ahmed/RobotinoCV/car-overhead-1.avi" ;
-    argc++;
-
-    if(argc > 1)
+    // Draw circles on the detected faces
+    for( int i = 0; i < robotinos.size(); i++ )
     {
-        std::cout << "Openning: " << argv[1] << std::endl;
 
-        capture = cvCaptureFromAVI(argv[1]);
+        rectangle( image, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
     }
-    else
-    { std::cout << "3ak " << std::endl;
-        capture = cvCaptureFromCAM(0);
-        resize_factor = 50; // set size = 50% of original image
-    }
+    namedWindow( "Detected Face", 2 );
+    imshow( "Detected Face", image );
 
-    if(!capture)
-    {
-        std::cerr << "Cannot initialize video!" << std::endl;
-        return -1;
-    }
-
-
-
-    IplImage *frame_aux = cvQueryFrame(capture);
-    IplImage *frame = cvCreateImage(cvSize((int)((frame_aux->width*resize_factor)/100) , (int)((frame_aux->height*resize_factor)/100)), frame_aux->depth, frame_aux->nChannels);
-    cvResize(frame_aux, frame);
-
-    /* Background Subtraction Methods */
-    IBGS *bgs;
-
-    /*** Default Package ***/
-    bgs = new FrameDifferenceBGS;
-
-
-    int key = 0;
-    while(key != 'q')
-    {
-        frame_aux = cvQueryFrame(capture);
-        if(!frame_aux) break;
-
-        cvResize(frame_aux, frame);
-
-        cv::Mat img_input(frame);
-        cv::imshow("input", img_input);
-
-        cv::Mat img_mask;
-        cv::Mat img_bkgmodel;
-        bgs->process(img_input, img_mask, img_bkgmodel);
-
-        key = cvWaitKey(33);
-    }
-
-    delete bgs;
-
-    cvDestroyAllWindows();
-    cvReleaseCapture(&capture);
-
+    waitKey(0);
     return 0;
 }

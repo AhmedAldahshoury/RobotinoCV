@@ -26,11 +26,11 @@ steps for training classifier :
         All the positive images in the description file are packed into a .vec file.
         can be dome by command :
 
-        $   opencv-createsamples -info positive.txt -vec vecfile.vec -w 60 -h 60
+        $   opencv_createsamples -info positive.txt -vec vecfile.vec -w 60 -h 60
 
         can show the .vec file using command :
 
-        $   opencv-createsamples -vec vecfile.vec -show
+        $   opencv_createsamples -vec vecfile.vec -show
 
     Training the classifier
 

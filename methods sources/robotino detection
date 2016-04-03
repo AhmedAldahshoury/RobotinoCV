@@ -18,17 +18,17 @@ int main( )
 
     //detecting robotinos
     std::vector<Rect> robotinos;
-    // face_cascade.detectMultiScale( image, faces, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
+
     robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
 
-    // Draw circles on the detected faces
+    // Draw rectangles on the detected robotinos
     for( int i = 0; i < robotinos.size(); i++ )
     {
 
         rectangle( image, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
     }
-    namedWindow( "Detected Face", 2 );
-    imshow( "Detected Face", image );
+    namedWindow( "Detected Robotino", 2 );
+    imshow( "Detected Robotino", image );
 
     waitKey(0);
     return 0;

@@ -1,82 +1,27 @@
-/**
- * @file objectDetection.cpp
- * @author A. Huaman ( based in the classic facedetect.cpp in samples/c )
- * @brief A simplified version of facedetect.cpp, show how to load a cascade classifier and how to find objects (Face + eyes) in a video stream
- */
-#include <iostream>
+#include <stdio.h>
 #include <opencv2/opencv.hpp>
+#include <iostream>
+int main(int, char**) {
+    cv::VideoCapture vcap;
+    cv::Mat image;
 
+    // This works on a D-Link CDS-932L
 
-using namespace std;
-using namespace cv;
+    const std::string videoStreamAddress = "http://lol:123@10.42.0.218:8088/mjpeg.cgi?channel=0&.mjpg";
+    //open the video stream and make sure it's opened
+    if(!vcap.open(videoStreamAddress)) {
+        std::cout << "Error opening video stream or file" << std::endl;
+        return -1;
+    }
 
-/** Function Headers */
-void detectAndDisplay( Mat frame );
-
-/** Global variables */
-//-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
-String face_cascade_name = "/home/festo/ClionProjects/RobotinoCV/robocascade/data/cascade.xml";
-String eyes_cascade_name = "/home/festo/ClionProjects/RobotinoCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml";
-CascadeClassifier face_cascade;
-CascadeClassifier eyes_cascade;
-string window_name = "Capture - Face detection";
-RNG rng(12345);
-
-/**
- * @function main
- */
-int main( void )
-{
-    VideoCapture capture;
-    Mat frame;
-
-    //-- 1. Load the cascades
-    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
-
-    //-- 2. Read the video stream
-    capture.open( -1 );
-    if( capture.isOpened() )
-    {
-        for(;;)
-        {
-            capture >> frame;
-
-            //-- 3. Apply the classifier to the frame
-            if( !frame.empty() )
-            { detectAndDisplay( frame ); }
-            else
-            { printf(" --(!) No captured frame -- Break!"); break; }
-
-            int c = waitKey(10);
-            if( (char)c == 'c' ) { break; }
-
+    for(;;) {
+        if(!vcap.read(image)) {
+            std::cout << "No frame" << std::endl;
+            cv::waitKey();
         }
-    }
-    return 0;
-}
+        cv::imshow("Output Window", image);
 
-/**
- * @function detectAndDisplay
- */
-void detectAndDisplay( Mat frame )
-{
-    std::vector<Rect> faces;
-    Mat frame_gray;
-
-    cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
-    equalizeHist( frame_gray, frame_gray );
-    //-- Detect faces
-    face_cascade.detectMultiScale( frame_gray, faces, 1.9, 160,0);
-    // robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
-
-
-
-    for( size_t i = 0; i < faces.size(); i++ )
-    {
-        rectangle( frame, cvPoint(faces[i].x,faces[i].y),cvPoint(faces[i].width+faces[i].x,faces[i].height+faces[i].y),CV_RGB(0,255,0), 3, 8,0);
+        if(cv::waitKey(1) >= 0) break;
     }
 
-    //-- Show what you got
-    imshow( window_name, frame );
 }

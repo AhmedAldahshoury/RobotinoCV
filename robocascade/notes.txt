@@ -1,0 +1,9 @@
+
+
+notes:
+
+
+1) number of positive samples should related be to negative around 2:1 (positive samples should be more
+
+2) The precision of your cascade is shown by acceptanceRatio on the last stage it should be around this value 0.000412662 or less.
+    But if you get acceptanceRatio like this 7.83885e-07 your cascade is probably overtrained and it wont find anything, try to set less stages.

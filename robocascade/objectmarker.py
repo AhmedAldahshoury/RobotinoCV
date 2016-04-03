@@ -93,12 +93,12 @@ def main():
 		sys.stderr.write("Failed to open file %s.\n" % output_file)
 		return -1
 
-        del files[0];
+	del files[0];
 
 	for file in files:
 		str_postfix = ""
 		num_of_rec = 0
-                img = str_prefix + "/" +  file
+		img = str_prefix + "/" +  file
 		sys.stderr.write("Loading image %s...\n" % img)
 
 		try:
@@ -108,7 +108,7 @@ def main():
 			return -1
 
 		#  Work on current image
-                cv.ShowImage(window_name,image)
+			cv.ShowImage(window_name,image)
 		# Need to figure out waitkey returns.
 		# <ESC> = 43	27	exit program
 		# <Space> = 48 32		add rectangle to current image

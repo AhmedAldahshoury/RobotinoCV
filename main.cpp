@@ -1,35 +1,82 @@
-
+/**
+ * @file objectDetection.cpp
+ * @author A. Huaman ( based in the classic facedetect.cpp in samples/c )
+ * @brief A simplified version of facedetect.cpp, show how to load a cascade classifier and how to find objects (Face + eyes) in a video stream
+ */
 #include <iostream>
 #include <opencv2/opencv.hpp>
+
 
 using namespace std;
 using namespace cv;
 
-int main( )
+/** Function Headers */
+void detectAndDisplay( Mat frame );
+
+/** Global variables */
+//-- Note, either copy these two files from opencv/data/haarscascades to your current folder, or change these locations
+String face_cascade_name = "/home/festo/ClionProjects/RobotinoCV/robocascade/data/cascade.xml";
+String eyes_cascade_name = "/home/festo/ClionProjects/RobotinoCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml";
+CascadeClassifier face_cascade;
+CascadeClassifier eyes_cascade;
+string window_name = "Capture - Face detection";
+RNG rng(12345);
+
+/**
+ * @function main
+ */
+int main( void )
 {
-    Mat image;
-    image = imread("/home/ahmed/Desktop/123.jpg", CV_LOAD_IMAGE_COLOR);
-    namedWindow( "original image", 2 );   imshow( "original image", image );
+    VideoCapture capture;
+    Mat frame;
 
-    // Load Face cascade (.xml file)
-    CascadeClassifier robotino_cascade;
+    //-- 1. Load the cascades
+    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
+    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading\n"); return -1; };
 
-    robotino_cascade.load( "/home/ahmed/Desktop/data/cascade.xml" );
-
-    //detecting robotinos
-    std::vector<Rect> robotinos;
-    // face_cascade.detectMultiScale( image, faces, 1.1, 2, 0|CV_HAAR_SCALE_IMAGE, Size(30, 30) );
-    robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
-
-    // Draw circles on the detected faces
-    for( int i = 0; i < robotinos.size(); i++ )
+    //-- 2. Read the video stream
+    capture.open( -1 );
+    if( capture.isOpened() )
     {
+        for(;;)
+        {
+            capture >> frame;
 
-        rectangle( image, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
+            //-- 3. Apply the classifier to the frame
+            if( !frame.empty() )
+            { detectAndDisplay( frame ); }
+            else
+            { printf(" --(!) No captured frame -- Break!"); break; }
+
+            int c = waitKey(10);
+            if( (char)c == 'c' ) { break; }
+
+        }
     }
-    namedWindow( "Detected Face", 2 );
-    imshow( "Detected Face", image );
-
-    waitKey(0);
     return 0;
+}
+
+/**
+ * @function detectAndDisplay
+ */
+void detectAndDisplay( Mat frame )
+{
+    std::vector<Rect> faces;
+    Mat frame_gray;
+
+    cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
+    equalizeHist( frame_gray, frame_gray );
+    //-- Detect faces
+    face_cascade.detectMultiScale( frame_gray, faces, 1.9, 160,0);
+    // robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
+
+
+
+    for( size_t i = 0; i < faces.size(); i++ )
+    {
+        rectangle( frame, cvPoint(faces[i].x,faces[i].y),cvPoint(faces[i].width+faces[i].x,faces[i].height+faces[i].y),CV_RGB(0,255,0), 3, 8,0);
+    }
+
+    //-- Show what you got
+    imshow( window_name, frame );
 }

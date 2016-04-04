@@ -8,18 +8,54 @@ using namespace cv;
 int main( )
 {
     Mat image;
-    image = imread("/home/ahmed/Desktop/123.jpg", CV_LOAD_IMAGE_COLOR);
+
+    //TEST IMAGES
+
+    //   image = imread("/home/festo/ClionProjects/RobotinoCV/media/123.jpg", CV_LOAD_IMAGE_COLOR);
+    //  image = imread("/home/festo/ClionProjects/RobotinoCV/media/12.jpg", CV_LOAD_IMAGE_COLOR);
+    image = imread("/home/festo/ClionProjects/RobotinoCV/media/1.jpeg", CV_LOAD_IMAGE_COLOR);
+
+
+
+
     namedWindow( "original image", 2 );   imshow( "original image", image );
 
-    // Load Face cascade (.xml file)
+    // Load Rotobino cascade (.xml file)
     CascadeClassifier robotino_cascade;
 
-    robotino_cascade.load( "/home/ahmed/Desktop/data/cascade.xml" );
+
+    // LOAD CASCADE .XML FILE
+
+    //DATA
+//    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data/cascade.xml" );
+
+    //DATA3
+    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data3/cascade.xml" );
+
+
+
+
 
     //detecting robotinos
     std::vector<Rect> robotinos;
 
-    robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
+
+    // DETECTING PARAMETERS
+
+
+    //DATA
+//    robotino_cascade.detectMultiScale(image,robotinos,1.9,160,0);
+//    robotino_cascade.detectMultiScale(image,robotinos,1.9,110,0);
+//    robotino_cascade.detectMultiScale(image,robotinos,1.9,20,0);
+
+
+    //DATA3
+
+    //   robotino_cascade.detectMultiScale(image,robotinos,1.9,5,0);
+    //   robotino_cascade.detectMultiScale(image,robotinos,1.9,3,0);
+    //   robotino_cascade.detectMultiScale(image,robotinos,1.9,0,0);
+
+
 
     // Draw rectangles on the detected robotinos
     for( int i = 0; i < robotinos.size(); i++ )

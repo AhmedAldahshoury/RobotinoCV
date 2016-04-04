@@ -1338,3 +1338,48 @@
   string cas = argv[2];
             detectcars.cascade_load(cas);
             detectcars.findcars();
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
+int main( )
+{
+    Mat image;
+    image = imread("/home/festo/Pictures/Screenshot.png", CV_LOAD_IMAGE_COLOR);
+    namedWindow( "original image", 2 );   imshow( "original image", image );
+
+    // Load Face cascade (.xml file)
+    CascadeClassifier robotino_cascade;
+
+    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data/cascade.xml" );
+
+    //detecting robotinos
+    std::vector<Rect> robotinos;
+
+    robotino_cascade.detectMultiScale(image,robotinos,1.9,470,0);
+
+    // Draw rectangles on the detected robotinos
+    for( int i = 0; i < robotinos.size(); i++ )
+    {
+
+        rectangle( image, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
+    }
+    namedWindow( "Detected Robotino", 2 );
+    imshow( "Detected Robotino", image );
+
+    waitKey(0);
+    return 0;
+}

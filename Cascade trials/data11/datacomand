@@ -1,0 +1,268 @@
+
+opencv_traincascade -data data11 -vec vecfile10.vec -bg neg/negative.txt -numStages 15 -featureType LBP -w 100 -h 100 -mode all -precalcValBufSize 4096 -precalcIdxBufSize 4096 -numPos 670 -numNeg 1200
+Training parameters are loaded from the parameter file in data folder!
+Please empty the data folder if you want to use your own set of parameters.
+PARAMETERS:
+cascadeDirName: data11
+vecFileName: vecfile10.vec
+bgFileName: neg/negative.txt
+numPos: 670
+numNeg: 1200
+numStages: 15
+precalcValBufSize[Mb] : 4096
+precalcIdxBufSize[Mb] : 4096
+stageType: BOOST
+featureType: LBP
+sampleWidth: 100
+sampleHeight: 100
+boostType: GAB
+minHitRate: 0.995
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+
+===== TRAINING 0-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 1
+Precalculation time: 35
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1|    0.225|
++----+---------+---------+
+END>
+Training until now has taken 0 days 0 hours 54 minutes 10 seconds.
+
+===== TRAINING 1-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 0.369231
+Precalculation time: 36
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.239167|
++----+---------+---------+
+END>
+Training until now has taken 0 days 1 hours 48 minutes 19 seconds.
+
+===== TRAINING 2-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 0.14957
+Precalculation time: 37
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.331667|
++----+---------+---------+
+END>
+Training until now has taken 0 days 2 hours 42 minutes 45 seconds.
+
+===== TRAINING 3-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 0.0713097
+Precalculation time: 36
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.323333|
++----+---------+---------+
+END>
+Training until now has taken 0 days 3 hours 37 minutes 31 seconds.
+
+===== TRAINING 4-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 0.0352113
+Precalculation time: 36
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1|     0.34|
++----+---------+---------+
+END>
+Training until now has taken 0 days 4 hours 32 minutes 28 seconds.
+
+===== TRAINING 5-stage =====
+<BEGIN
+POS count : consumed   670 : 670
+NEG count : acceptanceRatio    1200 : 0.0201032
+Precalculation time: 37
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.509167|
++----+---------+---------+
+|   4| 0.998507| 0.190833|
++----+---------+---------+
+END>
+Training until now has taken 0 days 5 hours 43 minutes 57 seconds.
+
+===== TRAINING 6-stage =====
+<BEGIN
+POS count : consumed   670 : 671
+NEG count : acceptanceRatio    1200 : 0.00577367
+Precalculation time: 36
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3| 0.997015|   0.4575|
++----+---------+---------+
+END>
+Training until now has taken 0 days 6 hours 39 minutes 2 seconds.
+
+===== TRAINING 7-stage =====
+<BEGIN
+POS count : consumed   670 : 673
+NEG count : acceptanceRatio    1200 : 0.00347864
+Precalculation time: 36
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1|   0.5175|
++----+---------+---------+
+|   4| 0.997015|    0.165|
++----+---------+---------+
+END>
+Training until now has taken 0 days 7 hours 50 minutes 51 seconds.
+
+===== TRAINING 8-stage =====
+<BEGIN
+POS count : consumed   670 : 675
+NEG count : acceptanceRatio    1200 : 0.001057
+Precalculation time: 37
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.466667|
++----+---------+---------+
+END>
+Training until now has taken 0 days 8 hours 45 minutes 39 seconds.
+
+===== TRAINING 9-stage =====
+<BEGIN
+POS count : consumed   670 : 675
+NEG count : acceptanceRatio    1200 : 0.000748312
+Precalculation time: 35
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.479167|
++----+---------+---------+
+END>
+Training until now has taken 0 days 9 hours 38 minutes 30 seconds.
+
+===== TRAINING 10-stage =====
+<BEGIN
+POS count : consumed   670 : 675
+NEG current samples:Corrupt JPEG data: premature end of data segment
+NEG curreCorrupt JPEG data: premature end of data segment
+NEG count : acceptanceRatio    1200 : 0.000326994
+Precalculation time: 35
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.491667|
++----+---------+---------+
+END>
+Training until now has taken 0 days 10 hours 32 minutes 27 seconds.
+
+===== TRAINING 11-stage =====
+<BEGIN
+POS count : consumed   670 : 675
+NEG count : acceptanceRatio    1200 : 0.000261143
+Precalculation time: 34
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1| 0.576667|
++----+---------+---------+
+|   4| 0.995522| 0.250833|
++----+---------+---------+
+END>
+Training until now has taken 0 days 11 hours 42 minutes 24 seconds.
+
+===== TRAINING 12-stage =====
+<BEGIN
+POS count : consumed   670 : 678
+NEG current samplCorrupt JPEG data: premature end of data segment
+NEGCorrupt JPEG data: premature end of data segment
+NEG current Corrupt JPEG data: premature end of data segment
+NEG curreCorrupt JPEG data: premature end of data segment
+NEG count : acceptanceRatio    1200 : 8.84719e-05
+Precalculation time: 35
++----+---------+---------+
+|  N |    HR   |    FA   |
++----+---------+---------+
+|   1|        1|        1|
++----+---------+---------+
+|   2|        1|        1|
++----+---------+---------+
+|   3|        1|        1|
++----+---------+---------+
+|   4| 0.995522| 0.478333|
++----+---------+---------+
+END>
+Training until now has taken 0 days 12 hours 59 minutes 5 seconds.
+
+===== TRAINING 13-stage =====
+<BEGIN
+POS current samplOpenCV Error: Bad argument (Can not get new positive sample. The most possible reason is insufficient count of samples in given vec-file.
+) in get, file /home/ahmed/Downloads/opencv-2.4.10/apps/traincascade/imagestorage.cpp, line 162
+terminate called after throwing an instance of 'cv::Exception'
+  what():  /home/ahmed/Downloads/opencv-2.4.10/apps/traincascade/imagestorage.cpp:162: error: (-5) Can not get new positive sample. The most possible reason is insufficient count of samples in given vec-file.
+ in function get
+
+[1]    5856 abort (core dumped)  opencv_traincascade -data data11 -vec vecfile10.vec -bg neg/negative.txt  15

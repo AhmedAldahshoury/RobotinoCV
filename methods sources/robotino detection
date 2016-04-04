@@ -11,9 +11,9 @@ int main( )
 
     //TEST IMAGES
 
-    //   image = imread("/home/festo/ClionProjects/RobotinoCV/media/123.jpg", CV_LOAD_IMAGE_COLOR);
+    //     image = imread("/home/festo/ClionProjects/RobotinoCV/media/123.jpg", CV_LOAD_IMAGE_COLOR);
     //  image = imread("/home/festo/ClionProjects/RobotinoCV/media/12.jpg", CV_LOAD_IMAGE_COLOR);
-    image = imread("/home/festo/ClionProjects/RobotinoCV/media/1.jpeg", CV_LOAD_IMAGE_COLOR);
+    // image = imread("/home/festo/ClionProjects/RobotinoCV/media/1.jpeg", CV_LOAD_IMAGE_COLOR);
 
 
 
@@ -30,8 +30,10 @@ int main( )
 //    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data/cascade.xml" );
 
     //DATA3
-    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data3/cascade.xml" );
+//    robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data3/cascade.xml" );
 
+    //DATA11
+    //   robotino_cascade.load( "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data11/cascade.xml" );
 
 
 
@@ -53,6 +55,12 @@ int main( )
 
     //   robotino_cascade.detectMultiScale(image,robotinos,1.9,5,0);
     //   robotino_cascade.detectMultiScale(image,robotinos,1.9,3,0);
+    //   robotino_cascade.detectMultiScale(image,robotinos,1.9,0,0);
+
+    //DATA11
+
+    //  robotino_cascade.detectMultiScale(image,robotinos,1.9,5,0);
+    //  robotino_cascade.detectMultiScale(image,robotinos,1.9,3,0);
     //   robotino_cascade.detectMultiScale(image,robotinos,1.9,0,0);
 
 

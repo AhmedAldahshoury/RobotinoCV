@@ -26,31 +26,31 @@ steps for training classifier :
         by giving the outfile path (the text file to be written in) ,and the input directory
         path (the directory containing the positive images) . this can be done by next command:
 
-        **$   python objectmarker.py <output file > <input directory>**
+        $   python objectmarker.py <output file > <input directory>
 
     Creating the description file of negative samples
 
         The description file of negative samples contain only the filenames of the negative
         images.can be done by command (inside the directory containing the negative images):
 
-        **$   ls > negative.txt**
+        $   ls > negative.txt
 
     Packing the positive samples into a vec file
 
         All the positive images in the description file are packed into a .vec file.
         can be dome by command :
 
-        **$   opencv_createsamples -info positive.txt -vec vecfile.vec -w 60 -h 60**
+        $   opencv_createsamples -info positive.txt -vec vecfile.vec -w 60 -h 60
 
         can show the .vec file using command :
 
-        **$   opencv_createsamples -vec vecfile.vec -show**
+        $   opencv_createsamples -vec vecfile.vec -show
 
     Training the classifier
 
-       **$ opencv_traincascade -data data -vec vecfile.vec -bg neg/negative.txt -numStages 8
+       $ opencv_traincascade -data data -vec vecfile.vec -bg neg/negative.txt -numStages 8
        -featureType LBP -w 60 -h 60 -mode all -precalcValBufSize 4096 -precalcIdxBufSize 4096
-       -numPos 440 -numNeg 240**
+       -numPos 440 -numNeg 240
 
     Using the xml file to detect the object
 

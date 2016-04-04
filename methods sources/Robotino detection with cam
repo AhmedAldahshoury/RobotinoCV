@@ -1,8 +1,4 @@
-/**
- * @file objectDetection.cpp
- * @author A. Huaman ( based in the classic facedetect.cpp in samples/c )
- * @brief A simplified version of facedetect.cpp, show how to load a cascade classifier and how to find objects (Face + eyes) in a video stream
- */
+
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
@@ -63,12 +59,12 @@ void detectAndDisplay( Mat frame )
     cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
     equalizeHist( frame_gray, frame_gray );
     //-- Detect faces
-    robotino_cascade.detectMultiScale(frame_gray,robotinos,1.9,160,0);
+    robotino_cascade.detectMultiScale(frame,robotinos,1.9,100,0);
 
     for( int i = 0; i < robotinos.size(); i++ )
     {
 
-        rectangle( frame_gray, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
+        rectangle( frame, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
     }
     //-- Show what you got
     imshow( window_name, frame );

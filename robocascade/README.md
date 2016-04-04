@@ -1,7 +1,7 @@
 
 Citation
 --------
-If you use this project for your publications, please cite it as:
+If you use any of this project for your publications, please cite it as:
 ```
 author    = Ahmed Aldahshoury
 email     = ahmed.aldahshoury@gmail.com
@@ -13,7 +13,7 @@ year      = 2016
 
 steps for training classifier :
 
-    Creating the description file of positive samples
+    Creating the description file of positive samples:
 
         The description file is just a text file, with each line corresponding to each
         image.The fields in a line of the positive description file are: the image name,
@@ -28,14 +28,14 @@ steps for training classifier :
 
         $   python objectmarker.py <output file > <input directory>
 
-    Creating the description file of negative samples
+    Creating the description file of negative samples:
 
         The description file of negative samples contain only the filenames of the negative
         images.can be done by command (inside the directory containing the negative images):
 
         $   ls > negative.txt
 
-    Packing the positive samples into a vec file
+    Packing the positive samples into a vec file:
 
         All the positive images in the description file are packed into a .vec file.
         can be dome by command :
@@ -46,7 +46,7 @@ steps for training classifier :
 
         $   opencv_createsamples -vec vecfile.vec -show
 
-    Training the classifier
+    Finally , Training the classifier :
 
        $ opencv_traincascade -data data -vec vecfile.vec -bg neg/negative.txt -numStages 8
        -featureType LBP -w 60 -h 60 -mode all -precalcValBufSize 4096 -precalcIdxBufSize 4096
@@ -54,5 +54,4 @@ steps for training classifier :
 
     Using the xml file to detect the object
 
-        get the path of the cascade file created in the data directory and write it in the
-        robodetect file .
+        get the path of the cascade xml file created in the data directory and create a CascadeClassifier in opencv c++ code.

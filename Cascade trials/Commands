@@ -1,0 +1,3 @@
+data 0 : opencv_traincascade -data data11 -vec vecfile.vec -bg neg/negative.txt -numStages 8 -featureType LBP -w 60 -h 60 -mode all -precalcValBufSize 1024 -precalcIdxBufSize 1024 -numPos 670 -numNeg 240
+
+data 10 : opencv_traincascade -data data11 -vec vecfile10.vec -bg neg/negative.txt -numStages 15 -featureType LBP -w 100 -h 100 -mode all -precalcValBufSize 4096 -precalcIdxBufSize 4096 -numPos 670 -numNeg 1200

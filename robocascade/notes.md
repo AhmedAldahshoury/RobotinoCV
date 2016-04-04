@@ -8,7 +8,7 @@ notes:
 2) The precision of your cascade is shown by acceptanceRatio on the last stage it should be around this value 0.000412662 or less.
     But if you get acceptanceRatio like this 7.83885e-07 your cascade is probably overtrained and it wont find anything, try to set less stages.
 
-3)How many negatives and positive images should I have?
+3) How many negatives and positive images should I have?
 
       It all depends on your application so start by clearly defining what application area you have
       Things to consider in this case are the amount of variation in object instances, the fact if you have a known/static background or not, is your lighting controlled or not, ...

@@ -10,7 +10,7 @@ using namespace cv;
 void detectAndDisplay( Mat frame );
 
 /** Global variables */
-String robotino_cascade_name = "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data14/cascade.xml";
+String robotino_cascade_name = "/home/festo/ClionProjects/RobotinoCV/Cascade trials/data15/cascade.xml";
 CascadeClassifier robotino_cascade;
 string window_name = "Capture - robotino detection";
 RNG rng(12345);
@@ -59,7 +59,7 @@ void detectAndDisplay( Mat frame )
     cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
     equalizeHist( frame_gray, frame_gray );
     //-- Detect faces
-    robotino_cascade.detectMultiScale(frame,robotinos,1.1,50,0);
+    robotino_cascade.detectMultiScale(frame,robotinos,1.9,9,0);
 
     for( int i = 0; i < robotinos.size(); i++ )
     {

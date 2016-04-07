@@ -59,7 +59,7 @@ void detectAndDisplay( Mat frame )
     cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
     equalizeHist( frame_gray, frame_gray );
     //-- Detect faces
-    robotino_cascade.detectMultiScale(frame,robotinos,1.9,9,0);
+    robotino_cascade.detectMultiScale(frame,robotinos,1.9,10,0);
 
     for( int i = 0; i < robotinos.size(); i++ )
     {

@@ -12,79 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470aaf97-e15b-4c83-b47a-5a4d93bfde17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data14/stage9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/data15/stage9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck2/stage9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck3/stage9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/cascade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/params.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage18.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/datapuck4/stage9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
@@ -107,10 +56,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="915">
               <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
@@ -119,11 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Commands" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cascade.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cascade trials/datapuck4/cascade.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9860">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Commands" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cascade trials/Commands">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="183" selection-start-line="2" selection-start-column="183" selection-end-line="2" selection-end-column="183" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cascade trials/datapuck4/params.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -243,27 +212,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cascade trials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datapuck4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/robotinoFiles" />
-      <recent name="$PROJECT_DIR$/methods sources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Cascade trials" />
       <recent name="$PROJECT_DIR$/Cascade trials/data13" />
       <recent name="$PROJECT_DIR$/robocascade/data" />
       <recent name="$PROJECT_DIR$/robocascade" />
       <recent name="$PROJECT_DIR$/robotinoFiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/robotinoFiles" />
+      <recent name="$PROJECT_DIR$/methods sources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.RobotinoCV">
@@ -630,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460043709623</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adding puck cascades">
+      <created>1460218606578</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1460218606578</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -644,26 +638,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1682" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30663615" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34168565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31693363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30663615" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31693363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -731,23 +725,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/methods sources/Face detection">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/methods sources/Face detection">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1098,13 +1075,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Cascade trials/datapuck4/params.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,6 +1088,24 @@
         <state relative-caret-position="30">
           <caret line="2" column="183" selection-start-line="2" selection-start-column="183" selection-end-line="2" selection-end-column="183" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cascade trials/datapuck4/cascade.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

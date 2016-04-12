@@ -41,3 +41,9 @@ notes:
      For your negative images just supply a folder with tons of images that are larger than your model size your selected.
      During training negative windows will get sampled from those larger images.
      At training time the -numNeg windows can thus be quite larger ... (more)
+
+5)minNeighbor parameter
+
+    The min_neighbors parameter is a control for preventing false detection.
+    Actual face locations in an image tend to get multiple “hits” in the same area because the surrounding pixels and scales oft en indicate a face.
+    Setting this to the default (3) in the face detection code indicates that we will only decide a face is present in a location if there are at least three overlapping detections.

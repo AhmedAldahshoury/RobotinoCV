@@ -1,0 +1,2 @@
+now robotino cascade and puck cascade is workingh but we have problem in the training of the robotino cascade "high eroor percentage"
+puck cascade "datapuck4" is working fine with params :     puck_cascade.detectMultiScale(frame,pucks,1.9,10,0); but needs more positive images and many negative images "for mouses and many black things "

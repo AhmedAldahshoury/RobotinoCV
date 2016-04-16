@@ -7,6 +7,7 @@ notes:
 
 2) The precision of your cascade is shown by acceptanceRatio on the last stage it should be around this value 0.000412662 or less.
     But if you get acceptanceRatio like this 7.83885e-07 your cascade is probably overtrained and it wont find anything, try to set less stages.
+    ( NOT A RULE !!! )
 
 3) How many negatives and positive images should I have?
 
@@ -19,7 +20,7 @@ notes:
     You want to supply as many situations as possible that don't look like your object here!
     Generally speaking they supply thousand of samples here to try to model general background noise for your application.
     Always keep in mind to carefully select your training data.
-    It is better to 100 good natural occuring samples, than to use 1 good image and transform it 100 times with the available tools.
+    It is better to 100 good natural occurring samples, than to use 1 good image and transform it 100 times with the available tools.
 
 4) Should positives be more than negatives? If yes what is the best proportion between negatives and positives?
 
@@ -37,7 +38,7 @@ notes:
 
     In your positives folder you keep images that contain objects.
      Then your positives.txt file will be formatted image_location number_objects x1 y1 w1 h1 x2 y2 w2 h2 ... xN yN wN hN.
-     This means that those regions will be cut out by the create samples tool and then resized to the model dimensions given at the -h and -w parameters of the tool.
+     This means that those regions will be cut out by the create samples tool and then resize to the model dimensions given at the -h and -w parameters of the tool.
      For your negative images just supply a folder with tons of images that are larger than your model size your selected.
      During training negative windows will get sampled from those larger images.
      At training time the -numNeg windows can thus be quite larger ... (more)

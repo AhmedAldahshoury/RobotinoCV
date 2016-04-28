@@ -12,108 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470aaf97-e15b-4c83-b47a-5a4d93bfde17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_joystick.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_robotino_api2.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_robotino_api2_java_wrapper.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/cascade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/params.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/AnalogInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/AnalogInputArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Bumper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Camera.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CameraCapabilities.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CameraFormat.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Charger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Com.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ComId.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ComObject.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CompactBHA.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CompactBHASimple.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CustomMessage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalInputArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalOutput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalOutputArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DistanceSensor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DistanceSensorArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ElectricalGripper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/EncoderInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Fleetcom.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/FleetcomPair.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Grappler.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/GrapplerReadings.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Gyroscope.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/InitialPose.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Kinect.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinderReadings.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinderReadingsShared.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Log.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Mapping.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Motor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/MotorArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NavGoal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Navigation.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NorthStar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NorthStarReadings.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Odometry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/OmniDrive.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/OmniDriveModel.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerButton.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerManagement.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerOutput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/QtGrapplerReadings.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Relay.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/RelayArray.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/RobotinoException.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Shutdown.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/all.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/AnalogInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Bumper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Camera.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Com.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/CompactBHA.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DigitalInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DigitalOutput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DistanceSensor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/EncoderInput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Gripper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Gyroscope.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Info.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Kinect.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/LaserRangeFinder.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Manipulator.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Motor.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/NorthStar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Odometry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/OmniDrive.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/PowerManagement.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/PowerOutput.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Relay.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/globals.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/defines.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/rec_robotino_api2_version.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/utils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods sources/RPdetection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods sources/backup" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/objectmarker1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/AnalogInput.h" afterPath="$PROJECT_DIR$/api2/c/AnalogInput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Camera.h" afterPath="$PROJECT_DIR$/api2/c/Camera.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/CompactBHA.h" afterPath="$PROJECT_DIR$/api2/c/CompactBHA.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/DigitalInput.h" afterPath="$PROJECT_DIR$/api2/c/DigitalInput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/DigitalOutput.h" afterPath="$PROJECT_DIR$/api2/c/DigitalOutput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/EncoderInput.h" afterPath="$PROJECT_DIR$/api2/c/EncoderInput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Gripper.h" afterPath="$PROJECT_DIR$/api2/c/Gripper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Info.h" afterPath="$PROJECT_DIR$/api2/c/Info.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Kinect.h" afterPath="$PROJECT_DIR$/api2/c/Kinect.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/LaserRangeFinder.h" afterPath="$PROJECT_DIR$/api2/c/LaserRangeFinder.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Manipulator.h" afterPath="$PROJECT_DIR$/api2/c/Manipulator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Motor.h" afterPath="$PROJECT_DIR$/api2/c/Motor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/NorthStar.h" afterPath="$PROJECT_DIR$/api2/c/NorthStar.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Odometry.h" afterPath="$PROJECT_DIR$/api2/c/Odometry.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/PowerManagement.h" afterPath="$PROJECT_DIR$/api2/c/PowerManagement.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/PowerOutput.h" afterPath="$PROJECT_DIR$/api2/c/PowerOutput.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/Relay.h" afterPath="$PROJECT_DIR$/api2/c/Relay.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/c/globals.h" afterPath="$PROJECT_DIR$/api2/c/globals.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api2/rec_robotino_api2_version.h" afterPath="$PROJECT_DIR$/api2/rec_robotino_api2_version.h" />
     </list>
     <ignored path="RobotinoCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -702,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460397013237</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="adding api2 files plus RPdetection in python">
+      <created>1461839437454</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1461839437454</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -720,14 +646,14 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.4978903" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3020595" sideWeight="0.38637733" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34018266" sideWeight="0.0994575" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34018266" sideWeight="0.9005425" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32379863" sideWeight="0.50934297" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409611" sideWeight="0.9005425" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242009" sideWeight="0.4930681" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32379863" sideWeight="0.49065703" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3020595" sideWeight="0.38637733" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -789,7 +715,8 @@
     <MESSAGE value="adding data15" />
     <MESSAGE value="adding puck cascades" />
     <MESSAGE value="detecting puck and robotino in single code" />
-    <option name="LAST_COMMIT_MESSAGE" value="detecting puck and robotino in single code" />
+    <MESSAGE value="adding api2 files plus RPdetection in python" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding api2 files plus RPdetection in python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

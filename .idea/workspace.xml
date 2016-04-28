@@ -12,17 +12,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470aaf97-e15b-4c83-b47a-5a4d93bfde17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/DoubleP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/DoubleP1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/MPRdetection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/MPRdetection2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/PRdetection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/PRdetection1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods sources/PR detection" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_joystick.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_robotino_api2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2_lib/librec_robotino_api2_java_wrapper.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/cascade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/params.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cascade trials/pucktrial2/stage9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/AnalogInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/AnalogInputArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Bumper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Camera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CameraCapabilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CameraFormat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Charger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Com.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ComId.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ComObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CompactBHA.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CompactBHASimple.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/CustomMessage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalInputArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DigitalOutputArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DistanceSensor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/DistanceSensorArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/ElectricalGripper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/EncoderInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Fleetcom.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/FleetcomPair.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Grappler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/GrapplerReadings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Gyroscope.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/InitialPose.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Kinect.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinderReadings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/LaserRangeFinderReadingsShared.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Log.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Mapping.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Motor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/MotorArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NavGoal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Navigation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NorthStar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/NorthStarReadings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Odometry.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/OmniDrive.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/OmniDriveModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerManagement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/PowerOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/QtGrapplerReadings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Relay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/RelayArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/RobotinoException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/Shutdown.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/all.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/AnalogInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Bumper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Camera.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Com.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/CompactBHA.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DigitalInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DigitalOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/DistanceSensor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/EncoderInput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Gripper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Gyroscope.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Info.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Kinect.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/LaserRangeFinder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Manipulator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Motor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/NorthStar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Odometry.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/OmniDrive.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/PowerManagement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/PowerOutput.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/Relay.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/c/globals.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/defines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/rec_robotino_api2_version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api2/utils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods sources/RPdetection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/methods sources/backup" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robocascade/objectmarker1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robocascade/notes.txt" afterPath="$PROJECT_DIR$/robocascade/notes.txt" />
     </list>
     <ignored path="RobotinoCV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +134,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state relative-caret-position="225">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="positive.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robocascade/positive.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -79,9 +182,9 @@
         <option value="$PROJECT_DIR$/Cascade trials/data11/datacomand" />
         <option value="$PROJECT_DIR$/robocascade/notes.md" />
         <option value="$PROJECT_DIR$/Cascade trials/notes" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/methods sources/PR detection" />
         <option value="$PROJECT_DIR$/robocascade/notes.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -91,9 +194,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1682" />
-    <option name="height" value="1026" />
+    <option name="width" value="1680" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,6 +243,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robocascade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RobotinoCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cascade trials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -150,6 +280,22 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="147" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1056" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="147" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1056" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -569,27 +715,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1682" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1025" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30320367" sideWeight="0.41169378" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24050634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.4978903" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3249428" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34168565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.40807715" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34018266" sideWeight="0.0994575" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34018266" sideWeight="0.9005425" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3249428" sideWeight="0.4978903" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242009" sideWeight="0.4930681" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3020595" sideWeight="0.38637733" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.3827607" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -658,13 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imbs.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/methods sources/histogram equalization">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -791,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/methods sources/templatematching">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/1.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -873,33 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robocascade/objectmarker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cascade trials/datapuck2/params.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robocascade/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="792">
-            <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -914,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="202" selection-start-line="1" selection-start-column="202" selection-end-line="1" selection-end-column="202" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,15 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robocascade/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="93" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11280">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
           <caret line="1360" column="55" selection-start-line="1360" selection-start-column="20" selection-end-line="1360" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,10 +1112,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/methods sources/templatematching">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robocascade/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="517">
+            <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robocascade/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="93" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robocascade/objectmarker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1601">
+          <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+          <folding>
+            <element signature="e#547#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="225">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robocascade/positive.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding />
         </state>
       </provider>

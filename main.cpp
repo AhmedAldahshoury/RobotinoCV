@@ -23,9 +23,11 @@ RNG rng(12345);
 int main( void )
 {
     VideoCapture capture;
+    capture.open("http://172.26.1.1/fcgi-bin/?{%22TYPE%22:%22getimage%22,%22A%22:1532857915}");
     Mat frame;
 
     //-- 1. Load the cascades
+
     if( !robotino_cascade.load( robotino_cascade_name ) ){ printf("--(!)Error loading1\n"); return -1; };
     if( !puck_cascade.load( puck_cascade_name ) ){ printf("--(!)Error loading2\n"); return -1; };
 

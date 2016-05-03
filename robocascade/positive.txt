@@ -1,4 +1,3 @@
- 
 /home/ahmed/Desktop/pos/20160326_114039_001.jpg 1 1957 561 1469 1748
 /home/ahmed/Desktop/pos/20160326_114039_002.jpg 1 1970 589 1456 1734
 /home/ahmed/Desktop/pos/20160326_114039_003.jpg 1 1931 555 1481 1733

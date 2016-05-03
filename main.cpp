@@ -1,84 +1,97 @@
+//
+// Created by ahmed on 3/19/16.
+//
+
 
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
 
+
+#if CV_MAJOR_VERSION >= 2 && CV_MINOR_VERSION >= 4 && CV_SUBMINOR_VERSION >= 3
+
+#endif
+
+
 using namespace std;
 using namespace cv;
 
-/** Function Headers */
-void detectAndDisplay( Mat frame );
+/// Global Variables
+Mat img; Mat templ; Mat result;
+const char* image_window = "Source Image";
+const char* result_window = "Result window";
 
-/** Global variables */
-String robotino_cascade_name = "/home/festo/ClionProjects/RobotinoCV/Cascade trials/datarobotino1/cascade.xml";
-String puck_cascade_name = "/home/festo/ClionProjects/RobotinoCV/Cascade trials/datapuck4/cascade.xml";
-CascadeClassifier robotino_cascade;
-CascadeClassifier puck_cascade;
-string window_name = "Capture - robotino & puck detection";
-RNG rng(12345);
+int match_method;
+int max_Trackbar = 5;
+
+/// Function Headers
+void MatchingMethod( int, void* );
 
 /**
  * @function main
  */
-int main( void )
+
+int main( int, char** argv )
 {
-    VideoCapture capture;
-    capture.open("http://172.26.1.1/fcgi-bin/?{%22TYPE%22:%22getimage%22,%22A%22:1532857915}");
-    Mat frame;
+    /// Load image and template
+    argv[1]="/home/festo/ClionProjects/RobotinoCV/media/BMW_logo_1.jpg";
+    argv[2]="/home/festo/ClionProjects/RobotinoCV/media/bmwtemp.png";
+    img = imread( argv[1], 1 );
+    templ = imread( argv[2], 1 );
 
-    //-- 1. Load the cascades
+    /// Create windows
+    namedWindow( image_window, 500 );
+    namedWindow( result_window, 500 );
 
-    if( !robotino_cascade.load( robotino_cascade_name ) ){ printf("--(!)Error loading1\n"); return -1; };
-    if( !puck_cascade.load( puck_cascade_name ) ){ printf("--(!)Error loading2\n"); return -1; };
+    /// Create Trackbar
+    const char* trackbar_label = "Method: \n 0: SQDIFF \n 1: SQDIFF NORMED \n 2: TM CCORR \n 3: TM CCORR NORMED \n 4: TM COEFF \n 5: TM COEFF NORMED";
+    createTrackbar( trackbar_label, image_window, &match_method, max_Trackbar, MatchingMethod );
 
-    //-- 2. Read the video stream
-    capture.open( -1 );
-    if( capture.isOpened() )
-    {
-        for(;;)
-        {
-            capture >> frame;
+    MatchingMethod( 0, 0 );
 
-            //-- 3. Apply the classifier to the frame
-            if( !frame.empty() )
-            { detectAndDisplay( frame ); }
-            else
-            { printf(" --(!) No captured frame -- Break!"); break; }
-
-            int c = waitKey(10);
-            if( (char)c == 'c' ) { break; }
-
-        }
-    }
+    waitKey(0);
     return 0;
 }
 
 /**
- * @function detectAndDisplay
- */
-void detectAndDisplay( Mat frame )
+ * @function MatchingMethod
+ * @brief Trackbar callback
+*/
+void MatchingMethod( int, void* )
 {
-    std::vector<Rect> robotinos;
-    std::vector<Rect> pucks;
+    /// Source image to display
+    Mat img_display;
+    img.copyTo( img_display );
 
-    Mat frame_gray;
+    /// Create the result matrix
+    int result_cols =  img.cols - templ.cols + 1;
+    int result_rows = img.rows - templ.rows + 1;
 
-    cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
-    equalizeHist( frame_gray, frame_gray );
-    //-- Detect faces
-    puck_cascade.detectMultiScale(frame,pucks,1.9,3,0);
-    robotino_cascade.detectMultiScale(frame,robotinos,1.9,4,0);
+    result.create( result_rows, result_cols, CV_32FC1 );
 
-    for( int i = 0; i < robotinos.size(); i++ )
-    {
+    /// Do the Matching and Normalize
+    matchTemplate( img, templ, result, match_method );
+    normalize( result, result, 0, 1, NORM_MINMAX, -1, Mat() );
 
-        rectangle( frame, cvPoint(robotinos[i].x,robotinos[i].y),cvPoint(robotinos[i].width+robotinos[i].x,robotinos[i].height+robotinos[i].y),CV_RGB(0,255,0), 3, 8,0);
-    }
-    for( int i = 0; i < pucks.size(); i++ )
-    {
+    /// Localizing the best match with minMaxLoc
+    double minVal; double maxVal; Point minLoc; Point maxLoc;
+    Point matchLoc;
 
-        rectangle( frame, cvPoint(pucks[i].x,pucks[i].y),cvPoint(pucks[i].width+pucks[i].x,pucks[i].height+pucks[i].y),CV_RGB(0,0,255), 3, 8,0);
-    }
-    //-- Show what you got
-    imshow( window_name, frame );
+    minMaxLoc( result, &minVal, &maxVal, &minLoc, &maxLoc, Mat() );
+
+
+    /// For SQDIFF and SQDIFF_NORMED, the best matches are lower values. For all the other methods, the higher the better
+    if( match_method  == TM_SQDIFF || match_method == TM_SQDIFF_NORMED )
+    { matchLoc = minLoc; }
+    else
+    { matchLoc = maxLoc; }
+
+    /// Show me what you got
+    rectangle( img_display, matchLoc, Point( matchLoc.x + templ.cols , matchLoc.y + templ.rows ),CV_RGB(255,0,0), 20, 8, 0 );
+    rectangle( result, matchLoc, Point( matchLoc.x + templ.cols, matchLoc.y + templ.rows ) ,CV_RGB(255,0,0), 20, 8, 0 );
+
+    imshow( image_window, img_display );
+    imshow( result_window, result );
+
+    return ;
 }

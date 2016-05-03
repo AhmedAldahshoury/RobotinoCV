@@ -11,7 +11,17 @@ roboclassifier = cv2.CascadeClassifier(TRAINSET2)
 bytes=''
 x=1
 while True:
-    stream=urllib.urlopen('http://172.26.1.1/fcgi-bin/?{%22TYPE%22:%22getimage%22,%22A%22:1532857915}')
+
+    #stream from robotino
+
+    #stream=urllib.urlopen('http://172.26.1.1/fcgi-bin/?{%22TYPE%22:%22getimage%22,%22A%22:1532857915}')
+
+
+    #stream from mobile
+
+    stream=urllib.urlopen('http://172.26.1.119:8080/shot.jpg?rnd=214398')
+
+
     jpg = stream.read()
     #a = bytes.find('\xff\xd8')
     #b = bytes.find('\xff\xd9')
